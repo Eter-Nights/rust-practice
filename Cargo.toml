@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "package/hello-world",
+]
+
+resolver = "2"
