@@ -65,3 +65,12 @@ cargo run -p web --example example1
 cargo test -p web
 cargo run -p web
 ```
+
+### 9. db
+
+PostgreSQL的简单使用
+
+```
+加载database.sql文件
+cargo run -p db
+```

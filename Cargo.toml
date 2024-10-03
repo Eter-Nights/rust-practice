@@ -8,6 +8,7 @@ members = [
     "package/tcp",
     "package/http",
     "package/web",
+    "package/db",
 ]
 
 resolver = "2"

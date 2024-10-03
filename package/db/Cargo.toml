@@ -1,0 +1,14 @@
+[package]
+name = "db"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-rt = "2"
+dotenvy = "0"
+sqlx = { version = "0", default-features = false, features = [
+    "postgres",
+    "runtime-tokio-native-tls",
+    "macros",
+    "chrono"] }
+chrono = { version = "0", features = ["serde"] }
