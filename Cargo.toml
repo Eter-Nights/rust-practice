@@ -3,6 +3,7 @@ members = [
     "package/hello-world",
     "package/snake",
     "package/bitcask",
+    "package/calculator",
 ]
 
 resolver = "2"

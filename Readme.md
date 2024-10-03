@@ -21,3 +21,11 @@ bitcask的简单实现
 ```
 cargo test -p bitcask
 ```
+
+### 4. calculator
+
+表达式计算的简单实现
+
+```
+cargo test -p calculator
+```
