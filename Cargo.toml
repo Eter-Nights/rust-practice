@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "package/hello-world",
+    "package/snake",
 ]
 
 resolver = "2"
