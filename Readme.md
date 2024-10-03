@@ -46,3 +46,12 @@ cargo test -p mvcc
 cargo run -p tcp --bin server
 cargo run -p tcp --bin client
 ```
+
+### 7. http
+
+http请求和响应简单实现
+
+```
+cargo test -p http
+cargo run -p http
+```
