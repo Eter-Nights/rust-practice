@@ -13,3 +13,11 @@ cargo run -p hello-world
 ```
 cargo run -p snake
 ```
+
+### 3. bitcask
+
+bitcask的简单实现
+
+```
+cargo test -p bitcask
+```
