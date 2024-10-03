@@ -37,3 +37,12 @@ cargo test -p calculator
 ```
 cargo test -p mvcc
 ```
+
+### 6. tcp
+
+服务端和客户端的简单实现
+
+```
+cargo run -p tcp --bin server
+cargo run -p tcp --bin client
+```

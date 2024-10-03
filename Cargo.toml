@@ -5,6 +5,7 @@ members = [
     "package/bitcask",
     "package/calculator",
     "package/mvcc",
+    "package/tcp",
 ]
 
 resolver = "2"
