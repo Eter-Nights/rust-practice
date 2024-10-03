@@ -7,6 +7,7 @@ members = [
     "package/mvcc",
     "package/tcp",
     "package/http",
+    "package/web",
 ]
 
 resolver = "2"

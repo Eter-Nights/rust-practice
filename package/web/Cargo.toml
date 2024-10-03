@@ -1,0 +1,31 @@
+[package]
+name = "web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2"
+serde = { version = "1", features = ["derive"] }
+chrono = { version = "0", features = ["serde"] }
+
+[[example]]
+name = "example1"
+
+[[example]]
+name = "example2"
+
+[[example]]
+name = "example3"
+
+[[example]]
+name = "example4"
+
+[[example]]
+name = "example5"
+
+[[example]]
+name = "example6"
+
+[[example]]
+name = "example7"

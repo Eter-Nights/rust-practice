@@ -55,3 +55,13 @@ http请求和响应简单实现
 cargo test -p http
 cargo run -p http
 ```
+
+### 8. web
+
+actix-web框架的简单运用
+
+```
+cargo run -p web --example example1
+cargo test -p web
+cargo run -p web
+```
