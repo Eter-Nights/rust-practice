@@ -74,3 +74,13 @@ PostgreSQL的简单使用
 加载database.sql文件
 cargo run -p db
 ```
+
+### 10. tutor-service
+
+使用actix-web和postgreSQL构建一个简单的tutor管理系统
+
+```
+加载database.sql文件
+cargo test -p tutor-service
+cargo run -p tutor-service
+```

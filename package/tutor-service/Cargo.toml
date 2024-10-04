@@ -1,0 +1,16 @@
+[package]
+name = "tutor-service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2"
+dotenvy = "0"
+sqlx = { version = "0", default-features = false, features = [
+    "postgres",
+    "runtime-tokio-native-tls",
+    "macros",
+    "chrono"] }
+serde = { version = "1", features = ["derive"] }
+chrono = { version = "0", features = ["serde"] }

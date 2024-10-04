@@ -9,6 +9,7 @@ members = [
     "package/http",
     "package/web",
     "package/db",
+    "package/tutor-service",
 ]
 
 resolver = "2"
