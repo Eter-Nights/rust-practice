@@ -84,3 +84,12 @@ cargo run -p db
 cargo test -p tutor-service
 cargo run -p tutor-service
 ```
+
+### 11. async-chat
+
+聊天服务器的简单实现
+
+```
+cargo run -p async-chat --bin server -- localhost:8088
+cargo run -p async-chat --bin client -- localhost:8088
+```

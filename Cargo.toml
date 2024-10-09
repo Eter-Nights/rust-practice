@@ -10,6 +10,7 @@ members = [
     "package/web",
     "package/db",
     "package/tutor-service",
+    "package/async-chat",
 ]
 
 resolver = "2"
