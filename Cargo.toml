@@ -11,6 +11,7 @@ members = [
     "package/db",
     "package/tutor-service",
     "package/async-chat",
+    "package/timer-future",
 ]
 
 resolver = "2"
