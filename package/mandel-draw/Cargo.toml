@@ -1,0 +1,9 @@
+[package]
+name = "mandel-draw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num="0"
+image="0"
+crossbeam="0"

@@ -101,3 +101,11 @@ cargo run -p async-chat --bin client -- localhost:8088
 ```
 cargo run -p timer-future
 ```
+
+### 13. mandel-draw
+
+曼德博绘图器
+
+```
+cargo run -p mandel-draw mandel-draw/mandel.png 4000x3000 -1.20,0.35 -1,0.20
+```

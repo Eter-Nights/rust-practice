@@ -12,6 +12,7 @@ members = [
     "package/tutor-service",
     "package/async-chat",
     "package/timer-future",
+    "package/mandel-draw",
 ]
 
 resolver = "2"
