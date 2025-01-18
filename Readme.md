@@ -107,5 +107,5 @@ cargo run -p timer-future
 曼德博绘图器
 
 ```
-cargo run -p mandel-draw mandel-draw/mandel.png 4000x3000 -1.20,0.35 -1,0.20
+cargo run -p mandel-draw package/mandel-draw/mandel.png 4000x3000 -1.20,0.35 -1,0.20
 ```
