@@ -109,3 +109,11 @@ cargo run -p timer-future
 ```
 cargo run -p mandel-draw package/mandel-draw/mandel.png 4000x3000 -1.20,0.35 -1,0.20
 ```
+
+### 14. json-macro
+
+json宏，可以把json字符串转换为Json枚举
+
+```
+cargo test -p json-macro 
+```

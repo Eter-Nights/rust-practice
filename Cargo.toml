@@ -13,6 +13,7 @@ members = [
     "package/async-chat",
     "package/timer-future",
     "package/mandel-draw",
+    "package/json-macro",
 ]
 
 resolver = "2"
