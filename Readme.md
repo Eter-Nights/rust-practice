@@ -117,3 +117,11 @@ json宏，可以把json字符串转换为Json枚举
 ```
 cargo test -p json-macro 
 ```
+
+### 15. gap-buffer
+
+间隙缓冲区的简单数据结构
+
+```
+cargo test -p gap-buffer
+```
