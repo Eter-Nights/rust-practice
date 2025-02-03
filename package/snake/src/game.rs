@@ -170,14 +170,14 @@ impl Game {
 
     /// 添加果子
     fn add_food(&mut self) {
-        let mut rng = rand::thread_rng();
+        let mut rng = rand::rng();
 
-        let mut new_x = rng.gen_range(1..self.width - 1);
-        let mut new_y = rng.gen_range(1..self.height - 1);
+        let mut new_x = rng.random_range(1..self.width - 1);
+        let mut new_y = rng.random_range(1..self.height - 1);
 
         while self.snake.over_tail(new_x, new_y) {
-            new_x = rng.gen_range(1..self.width - 1);
-            new_y = rng.gen_range(1..self.height - 1);
+            new_x = rng.random_range(1..self.width - 1);
+            new_y = rng.random_range(1..self.height - 1);
         }
 
         self.food_x = new_x;
